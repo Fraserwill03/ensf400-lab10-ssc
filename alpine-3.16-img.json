@@ -1,0 +1,22 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "https://openvex.dev/docs/public/vex-2d1f6af9b06567f0fe0bfe0e2f47e64f2777e63e00707646bc745ebe2af5deda",
+  "author": "Unknown Author",
+  "timestamp": "2024-04-02T17:13:56.231126193Z",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2024-0727"
+      },
+      "timestamp": "2024-04-02T17:13:56.231127585Z",
+      "products": [
+        {
+          "@id": "pkg:oci/alpine"
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_cannot_be_controlled_by_adversary"
+    }
+  ]
+}
